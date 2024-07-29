@@ -1,0 +1,141 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transition: 0.7s;
+    z-index: 10;
+	background: linear-gradient(90deg, rgba(14,0,255,1) 0%, rgba(86,86,255,1) 46%, rgba(0,212,255,1) 100%);
+
+}
+header.abajo{
+	background: linear-gradient(90deg, rgba(14,0,255,1) 0%, rgba(86,86,255,1) 46%, rgba(0,212,255,1) 100%);
+    padding: 10px 10px;
+}
+
+.logo{
+  display:flex;
+  width: 50px;
+  height:50px;
+  justify-content: center;
+
+}
+
+/*
+menu desplegable
+*/
+
+
+.navegacion{
+	width: auto;
+	margin-right: 50px;
+    margin-left: 30px;
+	background: rgba(255, 255, 255, 0);
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+    align-self: auto;
+
+    
+}
+.menu > li > a{
+	display: flex;
+	padding: 10px 15px;
+    margin-top: 5px;
+	color: #ffffff;
+	font-family: Verdana;
+    font-size: 14px;
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	background-color: #000000;
+	color: #ffffff;
+	transition: all .3s;
+}
+.menu2{
+    justify-content: right;
+}
+.menu2 > li{
+	position: relative;
+	display: inline-block;
+
+    
+}
+.menu2 > li > a{
+	display: flex;
+	padding: 10px 15px;
+    margin-top: 5px;
+	color: #ffffff;
+	font-family: Verdana;
+    font-size: 14px;
+	text-decoration: none;
+}
+
+.menu2 li a:hover{
+	background-color: #000000;
+	color: #ffffff;
+	transition: all .3s;
+}
+
+/* Submenu*/
+
+.submenu{
+	position: absolute;
+	background-color: #3f6fff;
+	width: 180%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+
+}
+
+.submenu li a{
+	display: block;
+	padding: 7px;
+	color: #fff;
+	font-family: 'verdana';
+    font-size: small;
+	text-decoration: none;
+    list-style: none;
+
+
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
+
+header.abajo .logo,
+header.abajo ul li a{
+    color: rgb(255, 255, 255);
+}
+
+@media only screen and (max-width: 600px) {
+	.menu,
+	.menu2 {
+		display: none;
+	}
+
+	.navegacion {
+		align-items: flex-end;
+	}
+
+	.menu-hamburguesa {
+		display: block;
+		font-size: 20px;
+		cursor: pointer;
+		color: white;
+	}
+}
