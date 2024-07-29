@@ -38,7 +38,7 @@ include('vista/mensaje.php');
                                     <form action="registronorm.php" method="post" enctype="multipart/form-data">
     <div class="d-flex align-items-center mb-3 pb-1">
         <img src="media/locenca.png" alt="Logo" class="me-3" style="width: 80px; height: 80px; object-fit: cover; border-radius: 50%;">
-        <span class="h1 fw-bold mb-0">CENCACOMEX</span>
+        <span class="h1 fw-bold mb-0">DIGITAL CERT.</span>
     </div>
 
     <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Regístrate</h5>

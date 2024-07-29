@@ -26,13 +26,13 @@ try {
 
     switch ($userData['tipoUsuarioID']) {
         case 1:
-            header("Location: ../digitalcert/admin/index.php");
+            header("Location: ../certdigital/admin/index.php");
             break;
         case 2:
-            header("Location: ../digitalcert/usuarioadm/index.php");
+            header("Location: ../certdigital/usuarioadm/index.php");
             break;
         case 3:
-            header("Location: ../digitalcert/cessit/home.php");
+            header("Location: ../certdigital/cessit/home.php");
             break;
         case 4:
             $secondaryKey = 'secondary_secret_key'; 

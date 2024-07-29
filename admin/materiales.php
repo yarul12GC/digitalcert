@@ -22,10 +22,7 @@ include '../vista/mensaje.php';
     <h2><strong>Materiales de los Talleres</strong></h2><br>
 
     <div class="row">
-        <div class="col-xs-12">
-            <p align="left"><b>Instrucciones:</b></p>
-            <p align="justify">Los archivos que se encuentran en la parte inferior son materiales de los talleres que has completado y puedes consultar las veces que consideres necesario. Si requieres información específica, te sugerimos contactar nuestro departamento <strong>Administrativo CENCA.</strong></p><br>
-    </div>
+        
     
          
     <table class="table table-bordered table-hover">

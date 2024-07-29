@@ -48,11 +48,7 @@ $resultadoCertificados = $consultaCertificados->get_result();
      
     <div class="row">
         <div class="col-xs-12">
-            <p align="left"><b>Instrucciones:</b></p>
-            <p align="justify">Los documentos que se encuentran en la parte inferior, están en formato PDF y pueden ser descargados las veces que consideres necesario. Si requieres información específica, te sugerimos contactar nuestro departamento <strong>Administrativo CENCA.</strong></p><br>
-            <p align="justify">
-            Además, te ofrecemos acceso al material proporcionado durante los talleres que has participado con <strong>CENCA COMEX.</strong> Para acceder, haz clic en el botón <strong>MIS MATERIALES</strong> y serás dirigido al repositorio donde encontrarás recursos relacionados con los talleres que has completado."   
-           </p><br>
+           
             <p align="justify"><a href="materiales.php">
             <button type="button" class="btn btn-success"><i style="color: #ffffff;"><img src="..\mediahea/docs.png" width="15px"></i> MIS MATERIALES</button>
             </a></p><br>

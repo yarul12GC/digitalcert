@@ -27,10 +27,10 @@ include('../vista/mensaje.php');
 </header>
 <section class="zona1">
 <div class="zona2">
-<img src="../media/locenca.png" alt="" width="18%" >
+<img src="../media/locenca.png" alt="" width="15%" >
 <h1><strong>DIGITAL CERT.</strong></h1>
 <br>
-<h5><strong>Obciones Rapidas</strong></h5>
+<h5><strong>Opciones Rapidas</strong></h5>
 <div class="botons">
 
             <div class="contenedor1" id="sinco">
